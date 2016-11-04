@@ -1,0 +1,125 @@
+* {
+	margin: auto;
+	box-sizing: border-box;
+}
+
+
+.header {
+	color: red;
+	background: yellow;
+	border: 5px dashed black;
+	font-family: Arial;
+	text-align: center;	
+	display: block;
+	height: 200px;
+    width: 100%;    
+ 	text-transform: uppercase;
+ 	font-size: 30px;
+ }
+
+.body {
+	font-family: serif;
+	font-size: 15px;	
+	text-align: left;	
+	margin-bottom: 10px;
+	border: 2px solid black;
+	padding: 50px 50px 300px 50px;
+	margin: 50px;
+	background: white;	
+	height: 	
+}
+
+
+
+h1 {
+	background: yellow;
+	padding-top: 25px;
+	letter-spacing: 5px;
+	word-spacing: 0.3em;
+}
+
+h2 {
+	background: yellow;
+	font-style: italic;
+	}
+
+p {
+	line-height: 45px;
+	margin-top: -10px;	
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 10px;
+	background: white;
+}
+
+ol, ul, li {
+	padding-bottom: 15px;
+	background: white;
+}
+
+img{
+	background: no-repeat fixed;
+	background-position: center;
+	z-index: -1;
+	background-attachment: fixed;
+	background-size: cover;
+	position: fixed;
+}
+
+div>img {
+	border: 2px solid black;
+	border-radius: 100%;
+	display: block;
+	position: static;
+	margin-bottom: 30px;
+	width: 300px;
+	height: 300px;	
+}
+
+table, tr, th, td {
+	border: 1px solid black;
+	background: white;
+	
+}
+
+span {
+	color: Firebrick;
+	background: white; 
+	text-align: center;
+	font-size: 30px;
+}
+
+.comment {
+	font-family: Courier;
+	font-size: 20px;
+	color: Firebrick;
+	background: -webkit-linear-gradient(yellow, green);
+	word-spacing: 0.3em;
+	float: right;
+	border: 2px solid Bisque;
+	display: block;
+	padding: 80px 50px;
+	border-bottom-left-radius: 10%;
+	border-top-left-radius: 10%;
+	border-left-width: 5px;
+	border-left-color: black;
+	position: static;
+}
+
+h3 {
+	text-align: center;
+	margin-top: -2px;
+	font-weight: bold;	
+	text-transform: capitalize;
+	z-index: -10;
+
+}
+
+form, label {
+	background:;
+}
+
+input, option, textarea, select {
+	background: ;
+}
+
